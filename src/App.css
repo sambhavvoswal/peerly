@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+/* Responsive hero title placement */
+.hero-title {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 600;
+  margin: 0;
+  z-index: 2;
+}
+/* Hero section background styles */
+.hero-section {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./components/home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
