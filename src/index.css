@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Simple fade-in utility for overlay appearances */
+@keyframes fadeInOverlay {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in-overlay {
+  animation: fadeInOverlay 220ms ease-out both;
+}
